@@ -5,6 +5,10 @@ This project implements the [SMART on FHIR](https://smarthealthit.org/) standard
 - **Backend**: Node.js/Express implementation of the SMART on FHIR OAuth2 flow.
 - **Frontend**: React app
 
+## Full disclosure
+I have implemented the protocol based on my uderstanding, and used AI for some of the logic, while learning REACT (I come from Vue) so take anything in this repo with a grain or two of salt.
+There are several missing pieces for authentication to be in a high standard (Supporting secrets, PKCE, state should be in local storage)
+
 ## Project Structure
 
 - `backend/` — Node.js backend for SMART on FHIR token exchange and config
@@ -44,10 +48,6 @@ You can test this app using the [SMART Health IT Sandbox](https://launch.smarthe
 2. Register your app or use the provided launch parameters.
 3. Use the launch URL with `?iss=...&launch=...` to start the SMART on FHIR flow.
 4. The frontend will use the official SMART on FHIR JavaScript library ([fhirclient](https://github.com/smart-on-fhir/client-js)) to handle authentication and FHIR API access in the browser.
-
-
-## Full disclosure
-I have implemented the protocol based on my uderstanding, and used AI for some of the logic, while learning REACT (I come from Vue) so take anything in this repo with a grain or two of salt.
 
 ---
 

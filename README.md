@@ -34,7 +34,7 @@ npm run dev   # or: npm start
 ```
 cd backend-smart
 npm install
-npm start
+npm run dev
 ```
 
 - The frontend will start on `http://localhost:3000` by default.
@@ -48,6 +48,8 @@ You can test this app using the [SMART Health IT Sandbox](https://launch.smarthe
 2. Register your app or use the provided launch parameters.
 3. Use the launch URL with `?iss=...&launch=...` to start the SMART on FHIR flow.
 4. The frontend will use the official SMART on FHIR JavaScript library ([fhirclient](https://github.com/smart-on-fhir/client-js)) to handle authentication and FHIR API access in the browser.
+
+
 
 ---
 

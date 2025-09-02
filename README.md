@@ -32,12 +32,12 @@ npm run dev   # or: npm start
 ### 2. Frontend (React + fhirclient)
 
 ```
-cd backend-smart
+cd frontend
 npm install
 npm run dev
 ```
 
-- The frontend will start on `http://localhost:3000` by default.
+- The frontend will start on `http://localhost:5173` by default.
 
 
 ## Testing with the SMART Sandbox
